@@ -220,7 +220,7 @@ int run_weibull() {
             }
         }
 
-        const double beta = 0.95; // или прочитай из файла, см. пункт C ниже
+        const double beta = 0.95; 
         const double z_beta = norm_ppf((1.0 + beta) / 2.0);
 
         // Ковариация и эффективный размер (число r=0)
@@ -303,3 +303,4 @@ int run_weibull() {
         return 1;
     }
 }
+
